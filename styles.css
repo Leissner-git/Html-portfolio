@@ -51,7 +51,7 @@ li{
     }
 }
 nav{
-    text-align: left;
+    text-align: center;
     background-color: var(--banner-color);
     color: var(--link-list-color);
     padding: 1rem 0;
