@@ -4,12 +4,12 @@ body {
   text-align: center;
 }
 h1 {
-  color: darkblue;
+  color: blue;
   font-family: 'Times New Roman', Times, serif;
   background-color: darkslategray;
 }
 #intro{
-    color:blue;
+    color:darkblue;
     font-size: 300%;
     background-color: darkgrey;
 }
