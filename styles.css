@@ -26,14 +26,16 @@ h1 {
     background-color: var(--main-bg);
 }
 p {
-    font-size: 1em;
   color: var(--txt-color);
   font-family: var(--body-font);
+  text-align: left;
+  font-size: 1em;
 }
 img{
     float: left;
 }
 .abouttext{
+    text-align: left;
     float: right;
 }
 ul{
@@ -41,8 +43,10 @@ ul{
     color: var(--link-list-color);
 }
 li{
+    text-align: left;
     display: inline-block;
     a{
+        text-align: left;
         text-decoration: none;
         display: inline-block;
         color: var(--txt-color);
@@ -51,10 +55,12 @@ li{
     }
 }
 nav{
+    text-align: left;
     background-color: var(--banner-color);
     color: var(--link-list-color);
     padding: 1rem 0;
     a{
+        text-align: left;
         text-decoration: none;
         color: var(--link-list-color);
         font-size: 1.7em;
