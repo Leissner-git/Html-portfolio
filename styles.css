@@ -4,6 +4,9 @@
     --headder-color:blue;
     --txt-color:black;
     --link-list-color:lightskyblue;
+    --head-font: 'Times New Roman', Times, serif;
+    --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 
@@ -13,7 +16,7 @@ body {
 }
 h1 {
   color: var(--headder-color);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: var(--head-font);
   background-color: var(--banner-color);
   font-size: 3em;
 }
@@ -25,7 +28,7 @@ h1 {
 p {
     font-size: 1em;
   color: var(--txt-color);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--body-font);
 }
 img{
     float: left;
@@ -44,7 +47,7 @@ li{
         display: inline-block;
         color: var(--txt-color);
         font-size: 3em;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: var(--head-font);
     }
 }
 nav{
@@ -55,6 +58,6 @@ nav{
         text-decoration: none;
         color: var(--link-list-color);
         font-size: 1.7em;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: var(--body-font);
     }
 }
