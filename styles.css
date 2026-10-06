@@ -16,13 +16,15 @@ h1 {
   color: var(--headder-color);
   font-family: 'Times New Roman', Times, serif;
   background-color: var(--banner-color);
+  font-size: 3em;
 }
 #intro{
     color:darkblue;
-    font-size: 300%;
+    font-size: 4em;
     background-color: var(--main-bg);
 }
 p {
+    font-size: 1em;
   color: var(--txt-color);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -42,7 +44,7 @@ li{
         text-decoration: none;
         display: inline-block;
         color: var(--txt-color);
-        font-size: 300%;
+        font-size: 3em;
         font-family: 'Times New Roman', Times, serif;
     }
 }
@@ -53,7 +55,7 @@ nav{
     a{
         text-decoration: none;
         color: var(--link-list-color);
-        font-size: 200%;
+        font-size: 2em;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
