@@ -8,9 +8,6 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   background-color: darkslategray;
 }
-img{
-    float: left;
-}
 #intro{
     color:darkblue;
     font-size: 300%;
@@ -19,6 +16,9 @@ img{
 p {
   color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    float: left;
 }
 .abouttext{
     float: right;
@@ -37,6 +37,7 @@ li{
 nav{
     background-color: darkslategray;
     color: lightskyblue;
+    padding: 1rem 0;
     a{
         color: lightskyblue;
         font-size: 200%;
