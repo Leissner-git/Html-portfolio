@@ -56,7 +56,7 @@ nav{
     color: var(--link-list-color);
     padding: 1rem 0;
     a{
-        text-align: left;
+        text-align: center;
         text-decoration: none;
         color: var(--link-list-color);
         font-size: 1.7em;
