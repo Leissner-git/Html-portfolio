@@ -8,6 +8,12 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   background-color: darkslategray;
 }
+img{
+    float: left;
+}
+.abouttext{
+    float: right;
+}
 #intro{
     color:darkblue;
     font-size: 300%;
