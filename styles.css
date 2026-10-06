@@ -19,8 +19,10 @@ h1 {
   font-family: var(--head-font);
   background-color: var(--banner-color);
   font-size: 3em;
+  text-align: center;
 }
 #intro{
+    text-align: center;
     color:darkblue;
     font-size: 4em;
     background-color: var(--main-bg);
@@ -31,13 +33,7 @@ p {
   text-align: left;
   font-size: 1em;
 }
-img{
-    float: left;
-}
-.abouttext{
-    text-align: left;
-    float: right;
-}
+
 ul{
     text-align: left;
     color: var(--link-list-color);
