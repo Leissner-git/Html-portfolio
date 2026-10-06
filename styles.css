@@ -37,7 +37,10 @@ ul{
     color: var(--link-list-color);
 }
 li{
+    display: inline-block;
     a{
+        text-decoration: none;
+        display: inline-block;
         color: var(--txt-color);
         font-size: 300%;
         font-family: 'Times New Roman', Times, serif;
@@ -48,6 +51,7 @@ nav{
     color: var(--link-list-color);
     padding: 1rem 0;
     a{
+        text-decoration: none;
         color: var(--link-list-color);
         font-size: 200%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
