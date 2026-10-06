@@ -19,6 +19,13 @@ ul{
     text-align: left;
     color: lightskyblue;
 }
+li{
+    a{
+        color: black;
+        font-size: 300%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
 nav{
     background-color: darkslategray;
     color: lightskyblue;
