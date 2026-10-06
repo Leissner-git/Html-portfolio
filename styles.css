@@ -1,20 +1,29 @@
+:root{
+    --main-bg:darkgrey;
+    --banner-color:darkslategray;
+    --headder-color:blue;
+    --txt-color:black;
+    --link-list-color:lightskyblue;
+}
+
+
 body {
-  background-color: darkgrey;
+  background-color: var(--main-bg);
   align-content: center;
   text-align: center;
 }
 h1 {
-  color: blue;
+  color: var(--headder-color);
   font-family: 'Times New Roman', Times, serif;
-  background-color: darkslategray;
+  background-color: var(--banner-color);
 }
 #intro{
     color:darkblue;
     font-size: 300%;
-    background-color: darkgrey;
+    background-color: var(--main-bg);
 }
 p {
-  color: black;
+  color: var(--txt-color);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 img{
@@ -25,21 +34,21 @@ img{
 }
 ul{
     text-align: left;
-    color: lightskyblue;
+    color: var(--link-list-color);
 }
 li{
     a{
-        color: black;
+        color: var(--txt-color);
         font-size: 300%;
         font-family: 'Times New Roman', Times, serif;
     }
 }
 nav{
-    background-color: darkslategray;
-    color: lightskyblue;
+    background-color: var(--banner-color);
+    color: var(--link-list-color);
     padding: 1rem 0;
     a{
-        color: lightskyblue;
+        color: var(--link-list-color);
         font-size: 200%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
