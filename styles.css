@@ -11,9 +11,6 @@ h1 {
 img{
     float: left;
 }
-.abouttext{
-    float: right;
-}
 #intro{
     color:darkblue;
     font-size: 300%;
@@ -22,6 +19,9 @@ img{
 p {
   color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.abouttext{
+    float: right;
 }
 ul{
     text-align: left;
