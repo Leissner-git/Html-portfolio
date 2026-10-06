@@ -10,7 +10,7 @@
 body {
   background-color: var(--main-bg);
   align-content: center;
-  text-align: center;
+  text-align: left;
 }
 h1 {
   color: var(--headder-color);
