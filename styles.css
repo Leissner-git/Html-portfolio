@@ -22,4 +22,8 @@ ul{
 nav{
     background-color: darkslategray;
     color: lightskyblue;
+    a{
+        color: lightskyblue;
+        font-size: 200%;
+    }
 }
