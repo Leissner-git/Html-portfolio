@@ -6,10 +6,12 @@ body {
 h1 {
   color: darkblue;
   font-family: 'Times New Roman', Times, serif;
+  background-color: darkslategray;
 }
 #intro{
     color:blue;
     font-size: 300%;
+    background-color: darkgrey;
 }
 p {
   color: black;
@@ -32,5 +34,6 @@ nav{
     a{
         color: lightskyblue;
         font-size: 200%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
