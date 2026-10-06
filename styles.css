@@ -15,3 +15,7 @@ p {
   color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+ul{
+    text-align: left;
+    color: lightskyblue;
+}
