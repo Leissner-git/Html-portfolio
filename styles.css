@@ -50,12 +50,49 @@ li{
         font-family: var(--head-font);
     }
 }
+.abouttext{
+    font-size: 1.5em;
+}
+.con{
+    font-size: 1.2em;
+    padding-bottom: 5rem;
+}
+.dow{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mm{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.sf{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sb{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.showcase{
+    font-size: 1.1em;
+}
+.image{
+    align-content: center;
+}
+#contac{
+    background-color: var(--txt-color);
+    color: var(--link-list-color);
+}
+#projshowcase{
+    font-weight: bold;
+}
 nav{
     text-align: center;
     background-color: var(--banner-color);
     color: var(--link-list-color);
     padding: 1rem 0;
+    ul{
+        text-align: center;
+    }
     a{
+        margin-left: 1em;
+        margin-right: 1em;
         text-align: center;
         text-decoration: none;
         color: var(--link-list-color);
