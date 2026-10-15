@@ -50,8 +50,12 @@ li{
         font-family: var(--head-font);
     }
 }
+.image{
+    order: 1;
+}
 .abouttext{
     font-size: 1.5em;
+    order: 2;
 }
 .con{
     font-size: 1.2em;
@@ -72,9 +76,6 @@ li{
 .showcase{
     font-size: 1.1em;
 }
-.image{
-    align-content: center;
-}
 #contac{
     background-color: var(--txt-color);
     color: var(--link-list-color);
@@ -83,20 +84,102 @@ li{
     font-weight: bold;
 }
 nav{
+    justify-content: center;
     text-align: center;
     background-color: var(--banner-color);
     color: var(--link-list-color);
-    padding: 1rem 0;
+    border: 2px solid --banner-color;
+    border-radius: 12px;
+    gap: 1rem;
+    padding: 1rem, 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     ul{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        justify-content: space-evenly;
         text-align: center;
+        gap:10px;
     }
     a{
-        margin-left: 1em;
-        margin-right: 1em;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100px;
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 0.5rem;
+        background:black;
         text-align: center;
         text-decoration: none;
         color: var(--link-list-color);
         font-size: 1.7em;
         font-family: var(--body-font);
+    }
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.module{
+    border: 1px solid darkslategrey;
+    border-radius: 8px;
+    padding: 1rem;
+    background:darkslategrey;
+}
+
+
+aboutsec{
+    display: flex;
+    gap: 20px;
+}
+@media all and (min-width: 400px){
+    .aboutsec{
+        flex-direction: column;
+    }
+    main{
+        grid-template-columns: 1fr;
+    }
+}
+/*
+i used the built in copilot and selected the error/issue message in the terminal,
+the built in function used the prompt: "fix the highlighted issue"
+and selected the entire @ media section and the copilot generated the code below, 
+which fixed the issue. (i forgot to specify aboutsec with brackets)
+*/
+@media all and (min-width: 900px) {
+    .aboutsec{
+        flex-direction: row;
+    }
+    main{
+        grid-template-columns: 1fr;
+    }
+}
+@media all and (min-width: 1200px) {
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+    .aboutsec{
+        flex-direction: row;
+        justify-content:space-evenly;
+        justify-content:center;
+        gap: 2rem;
+    }
+    .image{
+        width: 600px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .abouttext{
+        justify-content: center;
+        padding-top: 6rem;
+        margin-right: auto;
+        width: 600px;
+        font-size: 2em;
     }
 }
