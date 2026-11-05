@@ -77,8 +77,11 @@ li{
     font-size: 1.1em;
 }
 #contac{
-    background-color: var(--Banner-color);
-    color: var(--headder-color);
+  color: var(--headder-color);
+  font-family: var(--head-font);
+  background-color: var(--banner-color);
+  font-size: 3em;
+  text-align: center;
 }
 #projshowcase{
     font-weight: bold;
