@@ -23,7 +23,7 @@ h1 {
 }
 #intro{
     text-align: center;
-    color:darkblue;
+    color:lightskyblue;
     font-size: 4em;
     background-color: var(--main-bg);
 }
