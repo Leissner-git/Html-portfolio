@@ -45,7 +45,7 @@ li{
         text-align: left;
         text-decoration: none;
         display: inline-block;
-        color: var(--txt-color);
+        color: var(--headder-color);
         font-size: 3em;
         font-family: var(--head-font);
     }
