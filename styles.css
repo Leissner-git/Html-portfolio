@@ -78,7 +78,7 @@ li{
 }
 #contac{
     background-color: var(--txt-color);
-    color: var(--link-list-color);
+    color: var(--headder-color);
 }
 #projshowcase{
     font-weight: bold;
