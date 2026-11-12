@@ -13,14 +13,15 @@
     if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
       document.documentElement.setAttribute('data-theme', 'dark');
     }
-  </script>
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 
 <body>
 
     <nav>
-        <ul>
+        <ul data-aos="zoom-in">
             <li><a href="#intro">Intro</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projshowcase">Project Showcase</a></li>
@@ -29,33 +30,39 @@
 
     </nav>
     <header>
-        <button id="theme-toggle" aria-label="Toggle dark mode">Switch Theme</button>
+        <button data-aos="zoom-in" id="theme-toggle" aria-label="Toggle dark mode">Switch Theme</button>
     </header>
 
-    <h1 id="intro">I'm a Game design major who focuses on implementing systems.</h1>
+    <h1 data-aos="zoom-in" id="intro">I'm a Game design major who focuses on implementing systems.</h1>
 
-    <h1 id="about">About</h1>
+    <h1 data-aos="zoom-in" id="about">About</h1>
     <aboutsec>
-        <img class="image" width="875" fetchpriority=high src="photo-of-self(1).jpg" alt="A photograph of myself">
-        <p class="abouttext">My name is Jack Leissner. I'm a Game design major at MSU who has been working on learning the fundimentals of game design for 4 years. I have worked on projects in a number of coding languages, including C++, C#, Javascript, and python.</p>
+        <img data-aos="fade-right" class="image" width="875" fetchpriority=high src="photo-of-self(1).jpg" alt="A photograph of myself">
+        <p data-aos="fade-left" class="abouttext">My name is Jack Leissner. I'm a Game design major at MSU who has been working on learning the fundimentals of game design for 4 years. I have worked on projects in a number of coding languages, including C++, C#, Javascript, and python.</p>
     </aboutsec>
-    <h1 id="projshowcase">Project Showcase</h1>
-    <p class="showcase">I have worked on a multitude of games and small projects made for MSU classes.</p>
+    <h1 data-aos="zoom-in" id="projshowcase">Project Showcase</h1>
+    <p data-aos="fade-up" class="showcase">I have worked on a multitude of games and small projects made for MSU classes.</p>
     <main>    
         <ul>
         
-            <li class="module"><a class="dow" title="Death-of-the-Western" href="https://leissne2.itch.io/death-of-the-western">Death of the Western</a><p>A simple turn based RPG that was made as the final for a class, which i worked on with one other person.</p></li>
-            <li class="module"><a class="mm" title="CGP-Mega-Man" href="https://leissne2.itch.io/cgp-mega-man">CGP Mega Man</a><p>Another game project made with one other person as a midterm for our class. This in particular was when we were asked to do a simple recreation of a classic game.</p></li>
-            <li class="module"><a class="sf" title="3D-Shooter-Final" href="https://leissne2.itch.io/3d-shooter-final">3D Shooter</a><p>A simple 3d shooter game made to get us used to building games in 3d spaces.</p></li>
-            <li class="module"><a class="sb" title="Spaceborne-Battle" href="https://leissne2.itch.io/spaceborne-battle">Spaceborne Battle</a><p>A 2d space shooter, which was the first major project and introduction to game making for the class this was made for.</p></li>
+            <li data-aos="fade-down-right" class="module"><a class="dow" title="Death-of-the-Western" href="https://leissne2.itch.io/death-of-the-western">Death of the Western</a><p>A simple turn based RPG that was made as the final for a class, which i worked on with one other person.</p></li>
+            <li data-aos="fade-down-left" class="module"><a class="mm" title="CGP-Mega-Man" href="https://leissne2.itch.io/cgp-mega-man">CGP Mega Man</a><p>Another game project made with one other person as a midterm for our class. This in particular was when we were asked to do a simple recreation of a classic game.</p></li>
+            <li data-aos="fade-up-right" class="module"><a class="sf" title="3D-Shooter-Final" href="https://leissne2.itch.io/3d-shooter-final">3D Shooter</a><p>A simple 3d shooter game made to get us used to building games in 3d spaces.</p></li>
+            <li data-aos="fade-up-left" class="module"><a class="sb" title="Spaceborne-Battle" href="https://leissne2.itch.io/spaceborne-battle">Spaceborne Battle</a><p>A 2d space shooter, which was the first major project and introduction to game making for the class this was made for.</p></li>
            
         </ul>
     </main> 
 
 
-    <h1 id="contac">Contact</h1>
-    <p class="con">If you want to contact me, you can do so through my Email at jackleissner@gmail.com.</p>
+    <h1 data-aos="zoom-in" id="contac">Contact</h1>
+    <p data-aos="zoom-in" class="con">If you want to contact me, you can do so through my Email at jackleissner@gmail.com.</p>
     <script src="script.js"></script>
+    <!-- 2. AOS JS Script Link -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- 3. Initialize AOS -->
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
