@@ -3,12 +3,26 @@
     --banner-color:darkslategray;
     --headder-color:lightskyblue;
     --txt-color:white;
-    --link-list-color:lightskyblue;
     --head-font: 'Times New Roman', Times, serif;
     --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --page-margin: 6rem;
 }
+[data-theme="light"]{
+    --main-bg:white;
+    --banner-color:lightgray;
+    --headder-color:darkblue;
+    --txt-color:black;
+}
 
+button {
+  background-color: var(--banner-color);
+  color: var(--txt-color);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
 
 body {
   background-color: var(--main-bg);
@@ -23,7 +37,7 @@ h1 {
 }
 #intro{
     text-align: center;
-    color:lightskyblue;
+    color:var(--headder-color);
     font-size: 4em;
     background-color: var(--main-bg);
 }
@@ -36,7 +50,7 @@ p {
 
 ul{
     text-align: left;
-    color: var(--link-list-color);
+    color: var(--headder-color);
 }
 li{
     text-align: left;
@@ -90,8 +104,8 @@ nav{
     justify-content: center;
     text-align: center;
     background-color: var(--banner-color);
-    color: var(--link-list-color);
-    border: 2px solid --banner-color;
+    color: var(--headder-color);
+    border: 2px solid var(--main-bg);
     border-radius: 12px;
     gap: 1rem;
     padding: 1rem, 1rem;
@@ -110,13 +124,13 @@ nav{
         flex-grow: 1;
         flex-shrink: 1;
         flex-basis: 100px;
-        border: 1px solid black;
+        border: 1px solid var(--main-bg);
         border-radius: 8px;
         padding: 0.5rem;
-        background:black;
+        background: var(--main-bg);
         text-align: center;
         text-decoration: none;
-        color: var(--link-list-color);
+        color: var(--headder-color);
         font-size: 1.7em;
         font-family: var(--body-font);
     }
@@ -124,15 +138,17 @@ nav{
 
 
 main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
 }
 .module{
-    border: 1px solid darkslategrey;
+    border: 1px solid var(--banner-color);
     border-radius: 8px;
     padding: 1rem;
-    background:darkslategrey;
+    background:var(--banner-color);
 }
 
 

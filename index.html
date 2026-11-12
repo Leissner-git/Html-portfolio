@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack Leissner Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+    const savedTheme = localStorage.getItem('theme');
+    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  </script>
 </head>
 
 
@@ -20,6 +28,9 @@
         </ul>
 
     </nav>
+    <header>
+        <button id="theme-toggle" aria-label="Toggle dark mode">Switch Theme</button>
+    </header>
 
     <h1 id="intro">I'm a Game design major who focuses on implementing systems.</h1>
 
@@ -42,8 +53,9 @@
     </main> 
 
 
-    <h1 id="contac"ts">Contact</h1>
+    <h1 id="contac">Contact</h1>
     <p class="con">If you want to contact me, you can do so through my Email at jackleissner@gmail.com.</p>
+    <script src="script.js"></script>
 </body>
 
 </html>
